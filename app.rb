@@ -14,7 +14,7 @@ post '/food' do
 @sib_name = params[:name]
 @candy = params[:anwser]
 @fav_pet = params[:name]
-@
+@cow = params[:anwser]
 erb :food
 
 
