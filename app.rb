@@ -11,7 +11,8 @@ class App < Sinatra::Base
 post '/food' do
 @name = params[:username]
 @fav_food = params[:anwser]
-@sib_name = params[:]
+@sib_name = params[:name]
+@candy = params[:anwser]
 erb :food
 
 
